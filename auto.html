@@ -1,0 +1,489 @@
+<html>
+    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      <link  rel= "stylesheet" href = "stylesheet.css" type="text/css">
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ <link rel="icon" type="image/png" href="https://i.ibb.co/phV2TQy/OSicon.png">
+
+  </head>
+      <body bgcolor="#000000">
+          <div class="header">
+            <div class="loader">
+              <div class="progress"></div>
+            </div>
+          
+               <h1><a href = "Home.html"><img src="https://i.ibb.co/85krDsj/ONGAKU-STORE1.png" alt="Ongaku" border="0" style="width:40%" align="top"></h1></a>
+              
+             </div>
+             <div class="topnav">
+            <a href="Home.html">Home</a>
+             <div class="dropdown">
+             <button class="dropbtn">Genre
+            </button>
+            <div class="dropdown-content">
+            <a href="Hiphop.html">Hip Hop</a>
+           <a href="kpop.html">K-Pop</a>
+           <a href="Edm.html">Electronic Dance Music</a>
+           <a href="RnB.html">Rythm and Blues</a>
+           <a href="pop.html">Pop Music</a>
+           <a href="bollywood.html">Bollywood Music</a>
+           </div>
+           </div>
+            <a href="Instruments.html">Instruments</a>
+            <a href="aboutus.html">About Us</a>
+            
+            <a href="SgnUp.html" style = "float:right">Sign up</a>
+
+          </div> 
+<div class="slideshow-container">
+<div class="mySlides fade">
+  
+ <a href="Weeknd.html"> <img src="https://wallpaperaccess.com/full/276416.jpg" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  
+  <a href="Justin.html"><img src="https://wallpaperaccess.com/full/1684922.jpg" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  
+ <a href="Taylor.html"> <img src="https://images.wallpapersden.com/image/wxl-taylor-swift-photoshoot-2019_67719.jpg" style="width:100%"></div></a>
+  <div class="text"></div>
+<div class="mySlides fade">
+  
+ <a href = "Drake.html"> <img src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Drake/Drake_16_9_1606555317.jpg?itok=8Zfk5B2X" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+ 
+ <a href="Blackpink.html"> <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3827984c-f6dd-4b12-968e-54c65827ba35/dc9ry6x-cc9f6cca-6630-4cc1-b6ae-1416192d228c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzgyNzk4NGMtZjZkZC00YjEyLTk2OGUtNTRjNjU4MjdiYTM1XC9kYzlyeTZ4LWNjOWY2Y2NhLTY2MzAtNGNjMS1iNmFlLTE0MTYxOTJkMjI4Yy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.DuWtUsS54jTUJ4iwfpYrDI4TxHZkq5iqCv6mM9Kdj0E" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <a href= "Marsh.html"><img src="https://images.hdqwalls.com/download/marshmallow-lu-1920x1080.jpg" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+<div class="album">
+  <h1 style="font-family: Courier New;
+    font-size: 60px;
+    font-weight: 500;
+    font-weight: bold;
+    color:  #f1f1f1; "
+    align="center">
+    Popular Albums
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+   <a href="https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw"> <img src="https://assets.fontsinuse.com/static/use-media-items/80/79615/full-2232x1164/5c1bc050/ArialBlack-CrawModern.png" alt="Thankyou, Next" style="width:100%" height="300px" ;></a>
+  </div>
+  <div class="column">
+    <a href="https://open.spotify.com/album/5dGWwsZ9iB2Xc3UKR0gif2"><img src="https://media.pitchfork.com/photos/60392d85c353dd65550acf4e/2:1/w_2560%2Cc_limit/Justin-Bieber.pngg" alt="Justice" style="width:100%"  height="300px"></a>
+  </div>
+  <div class="column">
+    <a href="https://open.spotify.com/album/2lATw9ZAVp7ILQcOKPCPqp"><img src="https://i.redd.it/u02ge89jo3f11.jpg" alt="Love Yourself" style="width:100%" height="300px"></a>
+  </div>
+  <div class="column">
+    <a href="https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr"><img src="https://i.redd.it/58ms192j2rc51.jpg" alt="Folklore" style="width:100%" height="300px"></a>
+  </div>
+</div>
+
+
+  <h1 style="font-family: Courier New;
+    font-size: 60px;
+    font-weight: 500;
+    font-weight: bold;
+    color:  #f1f1f1; "
+    align="center">
+    Popular Instruments
+<div class="row">
+  <div class="column">
+   <a href="Instruments.html"> <img src="https://www.yopik.in/image/catalog/images/violin.jpg" alt="violin" style="width:100%" height="300px" ;></a>
+  </div>
+  <div class="column">
+   <a href="Instruments.html"> <img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/DCTM_Penguin_UK_DK_AL1007936_rt_q2qwiw.jpg" alt="Guitar" style="width:100%"  height="300px"></a>
+  </div>
+  <div class="column">
+   <a href="Instruments.html"> <img src="https://media.sweetwater.com/api/i/q-82__ha-e71eee0a573a6251__hmac-266fee025c4acd5e2fe1dbba86cd67784617fdb3/images/items/750/CVP809GPE-large.jpg" alt="Piano" style="width:100%" height="300px"></a>
+  </div>
+  <div class="column">
+    <a href="Instruments.html"><img src="https://images-eu.ssl-images-amazon.com/images/I/81NNd7AntmL.jpg" alt="Clapbox" style="width:100%" height="300px"></a>
+  </div>
+</div>
+
+<h1 style="font-family: Courier New;
+    font-size: 60px;
+    font-weight: 700;
+    font-weight: bolder;
+    color:  #f1f1f1; "
+    align="center">
+    Popular Genre
+<div class="row">
+  <div class="column">
+   <a href="Hiphop.html"> <img src="https://i.ytimg.com/vi/sbhq28FnFbA/maxresdefault.jpg" alt="Hip Hop" style="width:100%" height="300px";></a>
+  </div>
+  <div class="column">
+    <a href="kpop.html"><img src="https://image.freepik.com/free-vector/k-pop-music-concept_23-2148623921.jpg" alt="k-Pop" style="width:100%"  height="300px"></a>
+  </div>
+  <div class="column">
+   <a href="Pop.html"> <img src="https://www.wallpapertip.com/wmimgs/15-156961_pop-art-pop-music.jpg" alt="Pop Music" style="width:100%" height="300px"></a>
+  </div>
+  <div class="column">
+   <a href="Edm.html"> <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Cover-EDMFEST-EUROPEepb0310.jpg" alt="Electronic Dance Music" style="width:100%" height="300px"></a>
+  </div>
+</div>
+
+</body>
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+          <a href="Home.html"><img src="https://i.ibb.co/kBQPC3J/Ongaku-2.png"></a>
+        <h3>Ongaku<span>Store</span></h3>
+
+        <p class="footer-links">
+          <a href="Home.html">Home</a>
+          |
+          <a href="Instruments.html">Instruments</a>
+          |
+          <a href="aboutus.html">About</a>
+          
+       
+        </p>
+
+        <p class="footer-company-name">© 2021 Ongaku Store Pvt. limited</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+            <p><span>
+            Ongaku Store,
+             
+             North Campus,
+             
+            Delhi,India
+            </span>
+           </p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p> 8851028097</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p style="color: #600080"><a href="mailto:pallak629@gmail.com">pallak629@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Our Website</span>
+          We offer music and instruments of top.</p>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/Pubg__-meme-388316731701193"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+      
+</html>
+<html>
+    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      <link  rel= "stylesheet" href = "stylesheet.css" type="text/css">
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ <link rel="icon" type="image/png" href="https://i.ibb.co/phV2TQy/OSicon.png">
+
+  </head>
+      <body bgcolor="#000000">
+          <div class="header">
+          
+               <h1><a href = "Home.html"><img src="https://i.ibb.co/85krDsj/ONGAKU-STORE1.png" alt="Ongaku" border="0" style="width:40%" align="top"></h1></a>
+              
+             </div>
+             <div class="topnav">
+            <a href="Home.html">Home</a>
+             <div class="dropdown">
+             <button class="dropbtn">Genre
+            </button>
+            <div class="dropdown-content">
+            <a href="Hiphop.html">Hip Hop</a>
+           <a href="kpop.html">K-Pop</a>
+           <a href="Edm.html">Electronic Dance Music</a>
+           <a href="RnB.html">Rythm and Blues</a>
+           <a href="pop.html">Pop Music</a>
+           <a href="bollywood.html">Bollywood Music</a>
+           </div>
+           </div>
+            <a href="Instruments.html">Instruments</a>
+            <a href="aboutus.html">About Us</a>
+            
+            <a href="SgnUp.html" style = "float:right">Sign up</a>
+
+          </div> 
+<div class="slideshow-container">
+<div class="mySlides fade">
+  
+ <a href="Weeknd.html"> <img src="https://wallpaperaccess.com/full/276416.jpg" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  
+  <a href="Justin.html"><img src="https://wallpaperaccess.com/full/1684922.jpg" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  
+ <a href="Taylor.html"> <img src="https://images.wallpapersden.com/image/wxl-taylor-swift-photoshoot-2019_67719.jpg" style="width:100%"></div></a>
+  <div class="text"></div>
+<div class="mySlides fade">
+  
+ <a href = "Drake.html"> <img src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Drake/Drake_16_9_1606555317.jpg?itok=8Zfk5B2X" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+ 
+ <a href="Blackpink.html"> <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3827984c-f6dd-4b12-968e-54c65827ba35/dc9ry6x-cc9f6cca-6630-4cc1-b6ae-1416192d228c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzgyNzk4NGMtZjZkZC00YjEyLTk2OGUtNTRjNjU4MjdiYTM1XC9kYzlyeTZ4LWNjOWY2Y2NhLTY2MzAtNGNjMS1iNmFlLTE0MTYxOTJkMjI4Yy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.DuWtUsS54jTUJ4iwfpYrDI4TxHZkq5iqCv6mM9Kdj0E" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <a href= "Marsh.html"><img src="https://images.hdqwalls.com/download/marshmallow-lu-1920x1080.jpg" style="width:100%"></a>
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+<div class="album">
+  <h1 style="font-family: Courier New;
+    font-size: 60px;
+    font-weight: 500;
+    font-weight: bold;
+    color:  #f1f1f1; "
+    align="center">
+    Popular Albums
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+   <a href="https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw"> <img src="https://assets.fontsinuse.com/static/use-media-items/80/79615/full-2232x1164/5c1bc050/ArialBlack-CrawModern.png" alt="Thankyou, Next" style="width:100%" height="300px" ;></a>
+  </div>
+  <div class="column">
+    <a href="https://open.spotify.com/album/5dGWwsZ9iB2Xc3UKR0gif2"><img src="https://media.pitchfork.com/photos/60392d85c353dd65550acf4e/2:1/w_2560%2Cc_limit/Justin-Bieber.pngg" alt="Justice" style="width:100%"  height="300px"></a>
+  </div>
+  <div class="column">
+    <a href="https://open.spotify.com/album/2lATw9ZAVp7ILQcOKPCPqp"><img src="https://i.redd.it/u02ge89jo3f11.jpg" alt="Love Yourself" style="width:100%" height="300px"></a>
+  </div>
+  <div class="column">
+    <a href="https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr"><img src="https://i.redd.it/58ms192j2rc51.jpg" alt="Folklore" style="width:100%" height="300px"></a>
+  </div>
+</div>
+
+
+  <h1 style="font-family: Courier New;
+    font-size: 60px;
+    font-weight: 500;
+    font-weight: bold;
+    color:  #f1f1f1; "
+    align="center">
+    Popular Instruments
+<div class="row">
+  <div class="column">
+   <a href="Instruments.html"> <img src="https://www.yopik.in/image/catalog/images/violin.jpg" alt="violin" style="width:100%" height="300px" ;></a>
+  </div>
+  <div class="column">
+   <a href="Instruments.html"> <img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/DCTM_Penguin_UK_DK_AL1007936_rt_q2qwiw.jpg" alt="Guitar" style="width:100%"  height="300px"></a>
+  </div>
+  <div class="column">
+   <a href="Instruments.html"> <img src="https://media.sweetwater.com/api/i/q-82__ha-e71eee0a573a6251__hmac-266fee025c4acd5e2fe1dbba86cd67784617fdb3/images/items/750/CVP809GPE-large.jpg" alt="Piano" style="width:100%" height="300px"></a>
+  </div>
+  <div class="column">
+    <a href="Instruments.html"><img src="https://images-eu.ssl-images-amazon.com/images/I/81NNd7AntmL.jpg" alt="Clapbox" style="width:100%" height="300px"></a>
+  </div>
+</div>
+
+<h1 style="font-family: Courier New;
+    font-size: 60px;
+    font-weight: 700;
+    font-weight: bolder;
+    color:  #f1f1f1; "
+    align="center">
+    Popular Genre
+<div class="row">
+  <div class="column">
+   <a href="Hiphop.html"> <img src="https://i.ytimg.com/vi/sbhq28FnFbA/maxresdefault.jpg" alt="Hip Hop" style="width:100%" height="300px";></a>
+  </div>
+  <div class="column">
+    <a href="kpop.html"><img src="https://image.freepik.com/free-vector/k-pop-music-concept_23-2148623921.jpg" alt="k-Pop" style="width:100%"  height="300px"></a>
+  </div>
+  <div class="column">
+   <a href="Pop.html"> <img src="https://www.wallpapertip.com/wmimgs/15-156961_pop-art-pop-music.jpg" alt="Pop Music" style="width:100%" height="300px"></a>
+  </div>
+  <div class="column">
+   <a href="Edm.html"> <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Cover-EDMFEST-EUROPEepb0310.jpg" alt="Electronic Dance Music" style="width:100%" height="300px"></a>
+  </div>
+</div>
+
+</body>
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+          <a href="Home.html"><img src="https://i.ibb.co/kBQPC3J/Ongaku-2.png"></a>
+        <h3>Ongaku<span>Store</span></h3>
+
+        <p class="footer-links">
+          <a href="Home.html">Home</a>
+          |
+          <a href="Instruments.html">Instruments</a>
+          |
+          <a href="aboutus.html">About</a>
+          
+       
+        </p>
+
+        <p class="footer-company-name">© 2021 Ongaku Store Pvt. limited</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+            <p><span>
+            Ongaku Store,
+             
+             North Campus,
+             
+            Delhi,India
+            </span>
+           </p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p> 8851028097</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p style="color: #600080"><a href="mailto:pallak629@gmail.com">pallak629@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Our Website</span>
+          We offer music and instruments of top.</p>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/Pubg__-meme-388316731701193"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+      
+</html>

@@ -1,0 +1,301 @@
+<html>
+    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+      <link rel="icon" type="image/png" href="https://i.ibb.co/phV2TQy/OSicon.png">
+
+      <style type="text/css">
+      
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-image: url("https://i.ibb.co/8sm7Z04/moulin.png");
+  padding: 10px;
+}
+.grid-item {
+  background-image: url("https://i.ibb.co/8sm7Z04/moulin.png");
+ 
+  align-items: stretch;
+  justify-content:center;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.card {
+  margin:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  background color: black;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #600080 ;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+}
+
+
+
+ </style>
+  </head>
+      <body bgcolor="#000000">
+          <div class="header">
+          
+               <h1><a href = "Home.html"><img src="https://i.ibb.co/85krDsj/ONGAKU-STORE1.png" alt="1" border="0" style="width:40%" alt="Ongoku" border="0"></h1></a>
+               
+              
+             </div>
+             <div class="topnav">
+            <a href="Home.html">Home</a>
+              <div class="dropdown">
+             <button class="dropbtn">Genre
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="Hiphop.html">Hip Hop</a>
+           <a href="kpop.html">K-Pop</a>
+           <a href="Edm.html">Electronic Dance Music</a>
+           <a href="RnB.html">Rythm and Blues</a>
+           <a href="pop.html">Pop Music</a>
+           <a href="bollywood.html">Bollywood Music</a>
+           </div>
+           </div>
+            <a href="Instruments.html">Instruments</a>
+            <a href="aboutus.html">About Us</a>
+           
+            <a href="SgnUp.html" style = "float:right">Sign up</a>
+
+          </div> 
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="https://wallpaperaccess.com/full/1470296.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="https://cdn.merriammusic.com/2013/11/DSC02975.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="https://img.wallpapersafari.com/desktop/1600/900/2/40/0RPCl9.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+<div class="grid-container">
+  <div class="grid-item">
+    <div class="card">
+    <a href=""><img src="https://i.pinimg.com/originals/3e/d0/de/3ed0de42503eab038eca483edd40a478.jpg" style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Guitar</h3>
+  <p class="price"> ₹ 6999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+  </div>
+ 
+ </div>
+ <div class="grid-item">
+  <div class="card">
+  <a href=""><img src="https://cdnp0.stackassets.com/fdfe029162b1e81e1e9a8c07a34d4ae133b1dfdb/store/fed545fb028c56bde01ab09fe8f7c9ad9cd21cb534cd37f2daa36d86d8f5/product_36853_product_shot_wide.jpg" style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Piano</h3>
+  <p class="price">₹29999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="grid-item">
+  <div class="card">
+  <a href=""><img src="https://apollo-singapore.akamaized.net/v1/files/z6qoh8cbfxuq2-IN/image" style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Violin</h3>
+  <p class="price">₹9999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="grid-item">
+ <div class="card">
+  <a href=""><img src="https://www.redison.com/wp-content/uploads/2020/09/homepage-senstroke-blue-kit-1000x500.jpg" style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Drum Set</h3>
+  <p class="price">₹14999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="grid-item">
+  <div class="card">
+  <a href=""><img src="https://routenote.com/blog/wp-content/uploads/2020/04/51mYjZCR4-L._SL1000_-1.jpg" style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Kids Keyboard</h3>
+  <p class="price">₹5999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="grid-item">
+ <div class="card">
+  <a href=""><img src="https://i.ibb.co/D5qsbt5/download.jpg" style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Record Player</h3>
+  <p class="price">₹4999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="grid-item">
+ <div class="card">
+  <a href=""><img src="https://secureservercdn.net/50.62.172.232/n6o.ff2.myftpupload.com/wp-content/uploads/2020/07/sax-1000x500.jpg" style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Saxophone</h3>
+  <p class="price">₹12999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="grid-item">
+ <div class="card">
+  <a href=""><img src="https://www.river-music.co.uk/assets/Uploads/_resampled/PadWyIxMDAwIiwiNTAwIiwiRkZGRkZGIiwwXQ/182737.jpg"  style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Clarinet</h3>
+  <p class="price">₹6999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+<div class="grid-item">
+  <div class="card">
+  <a href=""><img src="https://media.britishmuseum.org/media/Repository/Documents/2016_5/27_10/3e9a9224_fedd_471d_a3b2_a61300b01dc1/mid_YCA1648.jpg" style="width: 100%;" height="auto"></a>
+  <h3 style = "color: #f1f1f1" >Flute</h3>
+  <p class="price">₹999.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+</div>
+</body>
+
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+          <a href="Home.html"><img src="https://i.ibb.co/kBQPC3J/Ongaku-2.png"></a>
+        <h3>Ongaku<span>Store</span></h3>
+
+        <p class="footer-links">
+          <a href="Home.html">Home</a>
+          |
+          <a href="Instruments.html">Instruments</a>
+          |
+          <a href="aboutus.html">About</a>
+          
+       
+        </p>
+
+        <p class="footer-company-name">© 2021 Ongaku Store Pvt. limited</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+            <p><span>
+            Ongaku Store,
+             
+             North Campus,
+             
+            Delhi,India
+            </span>
+           </p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p> 8851028097</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p style="color: #600080"><a href="mailto:pallak629@gmail.com">pallak629@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Our Website</span>
+          We offer music and instruments of top.</p>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/Pubg__-meme-388316731701193"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+
+      
+      
+</html>
